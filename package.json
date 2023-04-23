@@ -1,0 +1,15 @@
+{
+  "name": "rest-rant",
+  "version": "1.0.0",
+  "description": "Example: Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'test'"
+  },
+  "keywords": [
+    "REST",
+    "Rant"
+  ],
+  "author": "Josh Wedekind",
+  "license": "MIT"
+}

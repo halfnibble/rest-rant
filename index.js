@@ -6,6 +6,8 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 });
 
+app.use("/places", require("./controllers/places.js"));
+
 app.get("*", (req, res) => {
     res.status(404).send("404 Not Found");
 });
